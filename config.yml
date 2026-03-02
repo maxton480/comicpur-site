@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: username/comicpur-site  # apna GitHub username + repo
   branch: main
+  auth_type: implicit
 
 media_folder: "assets/uploads"
 public_folder: "/uploads"
